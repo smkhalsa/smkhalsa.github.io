@@ -1,12 +1,34 @@
 # Site settings
-title: Sat Khalsa
-email: smkhalsa@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://satkhalsa.com" # the base hostname & protocol for your site
-twitter_username: smkhalsa
-github_username:  smkhalsa
+title: "Sat Mandir Khalsa | Yogi, Entrepreneur, Software Engineer"
+description: "A tech blog"
+url: "http://www.satkhalsa.com"
+author:
+  name: "Sat Mandir Khalsa"
+  email: "smkhalsa@gmail.com"
+  url: "http://www.satkhalsa.com"
 
 # Build settings
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
