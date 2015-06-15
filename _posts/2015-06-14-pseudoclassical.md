@@ -5,10 +5,10 @@ title: Prototypical vs Pseudoclassical Pattern
 Classes are a core feature of Javascript which make it easier to write complex and powerful functionality. However, Javascript has four different patterns for creating and instantiating classes, and it can sometimes be easy to confuse them. 
 
 The four patterns are:
-1. Functional
-2. Functional-shared
-3. Prototypical
-4. Pseudoclassical
+1.  Functional
+2.  Functional-shared
+3.  Prototypical
+4.  Pseudoclassical
 
 In this post, I will compare two of the most popular patterns: Prototypical and Pseudoclassical.
 
